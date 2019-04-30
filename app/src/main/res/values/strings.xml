@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KSP</string>
+    <string name="perusahaan">Berkah Pratama Mandiri</string>
+    <string name="nasabah">Nasabah</string>
+    <string name="ktp">Masukan Nomor KTP : </string>
+    <string name="image">Thumbnail</string>
+    <string name="jaminan">Jaminan</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="tujuan">Tujuan</string>
+    <string name="nominal">Nominal</string>
+    <string name="cekKTP">cekKTP</string>
+</resources>

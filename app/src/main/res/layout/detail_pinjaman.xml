@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".DetailPinjaman">
+    <!-- Header -->
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nasabah"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtNominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nominal"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/dtTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tanggal"
+        android:textAlignment="viewStart"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtTujuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tujuan"
+        android:textAlignment="viewStart"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtJaminan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:text="@string/jaminan"
+        android:textAlignment="viewStart"
+        android:textSize="12sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:text="Detail Angsuran Nasabah : "
+        android:textAlignment="viewStart"
+        android:paddingTop="5dp"
+        android:textSize="14sp" />
+    <ListView
+        android:id="@+id/listDetailAngsuran"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933" />
+</LinearLayout>
